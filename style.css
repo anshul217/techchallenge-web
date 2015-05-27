@@ -1,0 +1,135 @@
+@import http://fonts.googleapis.com/css?family=Raleway;
+/*----------------------------------------------
+CSS Settings For HTML Div ExactCenter
+------------------------------------------------*/
+#main {
+width:960px;
+margin:50px auto;
+font-family:raleway
+}
+span {
+color:red
+}
+h2 {
+background-color:#FEFFED;
+text-align:center;
+border-radius:10px 10px 0 0;
+margin:-10px -40px;
+padding:15px
+}
+hr {
+border:0;
+border-bottom:1px solid #ccc;
+margin:10px -40px;
+margin-bottom:30px
+}
+#login {
+width:300px;
+float:left;
+border-radius:10px;
+font-family:raleway;
+border:2px solid #ccc;
+padding:10px 40px 25px;
+margin-top:70px
+}
+input[type=text],input[type=password] {
+width:99.5%;
+padding:10px;
+margin-top:8px;
+border:1px solid #ccc;
+padding-left:5px;
+font-size:16px;
+font-family:raleway
+}
+input[type=submit] {
+width:100%;
+background-color:#FFBC00;
+color:#fff;
+border:2px solid #FFCB00;
+padding:10px;
+font-size:20px;
+cursor:pointer;
+border-radius:5px;
+margin-bottom:15px
+}
+#profile {
+padding:20px;
+border:1px ;
+border-radius: 6px;
+
+font-size:15px;
+background-color:#DCE6F7;
+	box-shadow: 5px 5px;
+}
+#logout {
+float:right;
+padding:5px;
+background-color:#FFBC00;
+}
+#search{
+float: center;
+
+}
+a {
+text-decoration:none;
+color:#6495ed
+}
+i {
+color:#6495ed
+}
+#search {
+
+}
+
+#search input[type="text"] {
+    background: url(search-white.png) no-repeat 10px 6px #fcfcfc;
+    border: 1px solid #d1d1d1;
+    font: bold 12px Arial,Helvetica,Sans-serif;
+    color: #bebebe;
+    width: 150px;
+    padding: 6px 15px 6px 35px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    text-shadow: 0 2px 3px rgba(0, 0, 0, 0.1);
+    -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.15) inset;
+    -moz-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.15) inset;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.15) inset;
+    -webkit-transition: all 0.7s ease 0s;
+    -moz-transition: all 0.7s ease 0s;
+    -o-transition: all 0.7s ease 0s;
+    transition: all 0.7s ease 0s;
+    }
+
+#search input[type="text"]:focus {
+    width: 200px;
+    }
+    .sidemenuTitle{
+width:200px;
+border:1px solid #999;    
+    }
+    .sidemenu{
+		  width:200px;  
+		  border:1px solid #999;
+    }
+    .sidemenu ul{
+		list-style:none;
+		padding:0px;
+		margin:0px;    
+    }
+    .sidemenu ul li ul{display: none;}
+     .sidemenu li:hover ul {display: block;}
+      .sidemenu li:hover ul li {background-color: #333;}
+ .sidemenu li:hover ul li {color: #ccc;}    
+  .sidemenu li:hover ul li a{color: #222;border-left:4px solid #900; }   
+    .sidemenu ul li{}
+    .sidemenu li a{
+    	display: block;
+    	padding: 8px;
+border-left: 4px ;solid #444 ;
+	   
+    }
+    .sidemenu li a:hover{
+    	
+    	border-left: 4px ;solid #069 ;background:#f8f8f8;
+}
